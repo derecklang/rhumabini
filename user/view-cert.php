@@ -115,14 +115,19 @@ if (strlen($_SESSION['sturecmsstuid']) == 0) {
                                 <span class="card-body d-lg-flex align-items-center">
                                     <div class="container">
                                         <div class="col-sm-12 slider">
-                                            <p><i class="icon-doc"></i> Attachment Files</p>
-                                            <?php if (!empty($PatientCertificate)) { ?>
-    <h3>Download Certificate <a href="<?php echo 'certificate_directory/'. $PatientCertificate; ?>" download>Here</a></h3>
+                                        <i class="icon-doc"></i> Attachment Files</p>
 
-<?php } 
-else { ?>
-    <h3>No upload yet</h3>
-<?php } ?>
+<?php
+if (!empty($row->PatientCertificate)) {
+    ?>
+    <h3>Download Certificate <a href="../admin/certificate_directory/<?php echo $row->PatientCertificate; ?>" download>Here</a></h3>
+    <?php
+} else {
+    ?>
+    <h3>No certificate uploaded yet</h3>
+    <?php
+}
+?>
                                         </div>
                                     </div>
                                 </span>

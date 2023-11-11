@@ -76,7 +76,7 @@ body {
 }
 
 img {
-  width: 250px;
+  width: 300px;
   height: 300px;
   
 }
@@ -150,7 +150,7 @@ img {
       <h3>Designer</h3>
       <p>I design stuff.</p>
     </div>
-    <img src="/rural/rhu/images/weee.jpg" alt="">
+    <img src="/rural/rhu/images/espinosa.png" alt="">
     <figcaption>
       <h3>Dereck William Espinosa</h3>
 	  <span class="deg">Developer</span>
@@ -166,7 +166,7 @@ img {
       <h3>Coder</h3>
       <p>I code it all.</p>
     </div>
-    <img src="/RHU/sure/patient/images/haec.jpg" alt="">
+    <img src="/rural/rhu/images/mendoza.png" alt="">
     <figcaption>
       <h3>Haecjam Mendoza</h3>
 	  <span class="deg">Documentation</span>
@@ -182,7 +182,7 @@ img {
       <h3>Intern</h3>
       <p>I make their coffee.</p>
     </div>
-    <img src="/rural/rhu/images/asilo.jpg" alt="">
+    <img src="/rural/rhu/images/aje.png" alt="">
     <figcaption>
       <h3>Carl Aejemarc Asilo</h3>
 	  <span class="deg">Assistant Developer</span>
