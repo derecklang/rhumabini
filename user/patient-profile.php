@@ -106,9 +106,7 @@ foreach($results as $row)
     <th>User Name</th>
     <td><?php  echo $row->UserName;?></td>
   </tr>
-  <tr class="table-info">
-    <th>Patient Certificate </Picture></th>
-    <td><img src="../admin/images/<?php echo $row->PatientCertificate;?>"></td>
+
     <th>Date of Admission</th>
     <td><?php  echo $row->DateofAdmission;?></td>
   </tr>
