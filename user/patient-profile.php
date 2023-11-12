@@ -97,9 +97,7 @@ foreach($results as $row)
   <tr class="table-primary">
     <th>Contact Number</th>
     <td><?php  echo $row->ContactNumber;?></td>
-    <th>Altenate Number</th>
-    <td><?php  echo $row->AltenateNumber;?></td>
-  </tr>
+    
   <tr class="table-progress">
     <th>Address</th>
     <td><?php  echo $row->Address;?></td>
