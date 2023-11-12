@@ -179,7 +179,7 @@ foreach($result2 as $row1)
                       </div>
                       <div class="form-group">
                         <label for="exampleInputName1">Patient Photo</label>
-                        <img src="images/<?php echo $row->Image;?>" width="100" height="100" value="<?php  echo $row->Image;?>"> &nbsp;</a>
+                        <img src="images/<?php echo $row->Image;?>" width="100" height="100" value="<?php  echo $row->Image;?>"></a>
                       </div>
                     
                       <div class="form-group">
