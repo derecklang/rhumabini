@@ -124,25 +124,11 @@ foreach($results as $row)
                                             
  
   
-                              <a href="#" data-toggle="modal" data-target="#uploadModal"><i class="icon-cloud-upload"></i></a>
 
-<div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="uploadModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-      <div class="form-group">
-      <div class="form-group">
-    <label for="PatientCertificate">Upload Certificate</label>
-    <input type="file" name="PatientCertificate" id="PatientCertificate">
+                                               <a href="manage-patients.php?delid=<?php echo ($row->sid);?>" onclick="return confirm('Do you really want to Delete ?');"> <i class="icon-trash"></i></a></div>
+  
+                                               </div>
 </div>
-                        
-                      </div>
-    </div>
-  </div>
-</div>
-</div>
-                                                | <a href="manage-patients.php?delid=<?php echo ($row->sid);?>" onclick="return confirm('Do you really want to Delete ?');"> <i class="icon-trash"></i></a></div>
-
                             </td> 
                           </tr><?php $cnt=$cnt+1;}} ?>
                         </tbody>
