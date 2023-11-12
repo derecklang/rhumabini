@@ -115,8 +115,8 @@ if (strlen($_SESSION['sturecmsstuid']) == 0) {
                                 <span class="card-body d-lg-flex align-items-center">
                                     <div class="container">
                                         <div class="col-sm-12 slider">
-                                        <i class="icon-doc"></i> Attachment Files</p>
-
+                                      
+  <i class="icon-doc"></i> </p>
 <?php
 if (!empty($row->PatientCertificate)) {
     ?>
