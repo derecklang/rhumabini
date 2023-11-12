@@ -97,17 +97,19 @@ foreach($results as $row)
   <tr class="table-primary">
     <th>Contact Number</th>
     <td><?php  echo $row->ContactNumber;?></td>
-    
-  <tr class="table-progress">
     <th>Address</th>
     <td><?php  echo $row->Address;?></td>
+  </tr>
+  <tr class="table-progress">
+  
     <th>User Name</th>
     <td><?php  echo $row->UserName;?></td>
-  </tr>
-
     <th>Date of Admission</th>
     <td><?php  echo $row->DateofAdmission;?></td>
   </tr>
+
+    
+ 
   <?php $cnt=$cnt+1;}} ?>
 </table>
                   </div>
