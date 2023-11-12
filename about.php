@@ -156,7 +156,7 @@ img {
 	  <span class="deg">Developer</span>
       <br>
       <a href="https://web.facebook.com/dereck.espinosa.5070" class="fa fa-facebook fa-2x"></a>
-	  <a href="mailto:espinosadereck20@gmail.com" class="fa fa-envelope fa-2x"></a>
+	 
       
     </figcaption>
   </figure>
@@ -172,7 +172,7 @@ img {
 	  <span class="deg">Documentation</span>
       <br>
       <a href="https://web.facebook.com/HayecJam" class="fa fa-facebook fa-2x"></a>
-	  <a href="mailto:rbantugon3@gmail.com" class="fa fa-envelope fa-2x"></a>
+	 
      
     </figcaption>
   </figure>
@@ -188,7 +188,7 @@ img {
 	  <span class="deg">Assistant Developer</span>
       <br>
 	  <a href="https://web.facebook.com/carlaejemarc.egmarin" class="fa fa-facebook fa-2x"></a>
-      <a href="mailto:nelvinjaylorddalangin@gmail.com" class="fa fa-envelope fa-2x"></a>
+    
       
     </figcaption>
   </figure>
