@@ -177,10 +177,7 @@ foreach($result2 as $row1)
                         <label for="exampleInputName1">Patient ID</label>
                         <input type="text" name="stuid" value="<?php  echo htmlentities($row->StuID);?>" class="form-control" readonly='true'>
                       </div>
-                      <div class="form-group">
-                        <label for="exampleInputName1">Patient Photo</label>
-                        <img src="images/<?php echo $row->Image;?>" width="100" height="100" value="<?php  echo $row->Image;?>"></a>
-                      </div>
+                      
                     
                       <div class="form-group">
     <label for="PatientCertificate">Upload Certificate</label>
